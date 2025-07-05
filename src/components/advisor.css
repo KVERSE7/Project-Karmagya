@@ -1,0 +1,106 @@
+/* advisor.css */
+
+.advisor {
+  font-family: sans-serif;
+  background-color: #f0fdf4;
+  min-height: 100vh;
+}
+
+.advisor-header {
+  background-color: #fff;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #166534;
+}
+
+.nav a {
+  margin-right: 1rem;
+  color: #166534;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.advisor-hero {
+  background-color: #bbf7d0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.advisor-hero h1 {
+  font-size: 2.5rem;
+  color: #166534;
+}
+
+.advisor-form-section {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.advisor-form {
+  background-color: #d9f99d;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 450px;
+}
+
+.advisor-form label {
+  display: flex;
+  flex-direction: column;
+  color: #14532d;
+  font-weight: 600;
+}
+
+.advisor-form input {
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border: 1px solid #a7f3d0;
+  border-radius: 0.5rem;
+}
+
+.advisor-form button {
+  background-color: #166534;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.advisor-result {
+  background-color: #ecfccb;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: left;
+  color: #14532d;
+}
+
+.advisor-result h2 {
+  color: #166534;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: #14532d;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 3rem;
+}

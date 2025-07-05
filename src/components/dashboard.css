@@ -1,0 +1,84 @@
+/* Dashboard.css */
+
+.dashboard {
+  font-family: sans-serif;
+  background-color: #ecfdf5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #166534;
+}
+
+.nav a {
+  margin-right: 1rem;
+  color: #166534;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.logout-button {
+  background-color: #166534;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.dashboard-banner {
+  background-color: #bbf7d0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dashboard-banner h1 {
+  font-size: 2rem;
+  color: #166534;
+}
+
+.dashboard-banner p {
+  color: #14532d;
+  font-weight: 500;
+}
+
+.dashboard-content {
+  padding: 2rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.card {
+    display: inline-block;
+  background-color: #dff19e;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  font-weight: 500;
+  color: #14532d;
+  min-height: 5vh;
+  justify-content: center;
+text-align: center;
+  
+}
+
+.footer {
+  background-color: #14532d;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+}

@@ -1,0 +1,106 @@
+/* organic.css */
+
+.organic {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0fdf4;
+  min-height: 100vh;
+}
+
+.organic-header {
+  background-color: #fff;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #166534;
+}
+
+.nav a {
+  margin-left: 1rem;
+  color: #166534;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.organic-hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #d1fae5;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.organic-hero .text {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.organic-hero .text h1 {
+  font-size: 2.4rem;
+  color: #14532d;
+  text-align: center;
+}
+
+.organic-hero .text p {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #166534;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.organic-hero .image {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.organic-hero img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.organic-features {
+  padding: 2rem;
+  background-color: #ecfccb;
+}
+
+.organic-features h2 {
+  text-align: center;
+  color: #14532d;
+  margin-bottom: 1.5rem;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.feature-card {
+  background-color: #d9f99d;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background-color: #14532d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}

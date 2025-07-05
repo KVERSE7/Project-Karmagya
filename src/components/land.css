@@ -1,0 +1,91 @@
+/* land.css */
+
+.land {
+  font-family: sans-serif;
+  background-color: #f0fdf4;
+  min-height: 100vh;
+}
+
+.land-header {
+  background-color: #fff;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #166534;
+}
+
+.nav a {
+  margin-right: 1rem;
+  color: #166534;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.land-hero {
+  background-color: #bbf7d0;
+  text-align: center;
+  padding: 2rem;
+}
+
+.land-hero h1 {
+  font-size: 2.5rem;
+  color: #166534;
+}
+
+.land-visuals {
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.visual-card {
+  background-color: #d9f99d;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.visual-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.land-risks, .land-tips {
+  background-color: #ecfccb;
+  margin: 2rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+}
+
+.land-risks h2, .land-tips h2 {
+  color: #14532d;
+  margin-bottom: 1rem;
+}
+
+.land-risks ul, .land-tips ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #166534;
+}
+
+.footer {
+  background-color: #14532d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
