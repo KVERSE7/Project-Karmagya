@@ -1,7 +1,10 @@
 🌱 KARMAGYA – Empowering Indian Farmers with AI & IoT
+
+
 KARMAGYA is a full-stack web platform designed to empower Indian farmers by integrating AI advisory, IoT-based grain stock monitoring, and a live agri-marketplace. It bridges the gap between traditional agriculture and modern tech, ensuring transparency, sustainability, and economic upliftment for the farming community.
 
 🚀 Features
+
 🌾 1. Smart Grain Monitoring System
 Live environmental data from warehouses (Temperature, Humidity, Gas Levels).
 
@@ -9,12 +12,14 @@ Helps in preventing grain spoilage and maintaining stock health.
 
 Designed to connect with IoT sensors via ESP32/Raspberry Pi.
 
+
 🧠 2. AI-Powered Crop Advisory
 Users can input soil data (pH, Nitrogen, Phosphorus, Potassium).
 
 The system predicts and recommends the most suitable crops using ML models.
 
 Enhances yield by offering data-driven cultivation advice.
+
 
 🛒 3. Live Market Platform
 Farmers can list their crops with quantity and price.
@@ -27,10 +32,12 @@ Generates receipts and maintains order history.
 
 Platform includes transaction/usage fee model.
 
+
 🔍 4. Organic Verification System (Upcoming)
 Blockchain-inspired design for verifying if a crop is organically grown.
 
 Promotes fair trade and trust between buyers and farmers.
+
 
 📊 5. Data Dashboard
 Clean UI displaying:
@@ -43,6 +50,7 @@ Marketplace insights
 
 Helps both farmers and administrators make informed decisions.
 
+
 🧑‍🌾 6. User Roles
 Farmer Dashboard: Upload products, view insights, receive suggestions.
 
@@ -50,10 +58,12 @@ Buyer Dashboard: Browse live listings, place orders, connect with farmers.
 
 Admin panel (in development) to oversee operations and flag issues.
 
+
 🛡️ 7. Security & Privacy
 Firebase/MongoDB integration for secure authentication & storage.
 
 Role-based access controls.
+
 
 💻 8. Modern Tech Stack
 Frontend: React.js, Tailwind CSS, Vite
@@ -65,6 +75,7 @@ Database: MongoDB Atlas
 Hosting: Vercel
 
 APIs: RESTful APIs, custom ML model endpoints (Python/Flask)
+
 
 
 # Getting Started with Create React App
